@@ -1,0 +1,34 @@
+---
+layout: page_media
+---
+
+<h1 class="category-title">Contacto</h1>
+
+
+<div class="contact-form">
+
+  <form action="http://formspree.io/g.andres.arara.g@gmail.com" method="POST">
+
+    <input type="hidden" name="_next" value="//autocensurado.com/contacto/gracias.html" />
+
+    <div class="row control-group">
+      <div class="form-group col-xs-12 floating-label-form-group controls">
+        <label for="_replyto">Correo:</label>
+        <input type="email" name="_replyto" class="form-control" placeholder="correo electrónico" id="email" required data-validation-required-message="Por favor escribe tu correo electrónico.">
+        <p class="help-block text-danger"></p>
+      </div>
+    </div>
+
+    <div class="row control-group">
+      <div class="form-group col-xs-12 floating-label-form-group controls">
+        <label>Mensaje:</label>
+        <textarea name="body" rows="5" class="form-control" placeholder="mensaje" id="message" required data-validation-required-message="Por favor escribe tu mensaje."></textarea>
+
+        <p class="help-block text-danger"></p>
+      </div>
+    </div>
+
+    <button id="contact-button" type="submit">Enviar</button>
+
+  </form>
+</div>

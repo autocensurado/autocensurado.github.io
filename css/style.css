@@ -3,10 +3,11 @@
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background: none;
+	background: black;
+	font-family: 'Armata';
 }
 
-.full {
+.index {
   background: url("../images/index_banner.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,7 +18,6 @@ body {
 .navbar {
   background-color: rgba(0,0,0,0.5);
   background: rgba(0,0,0,0.5);
-  font-family: 'Armata';
   font-weight: 400;
   font-style: normal;
   font-size: 1.1em;
@@ -53,4 +53,49 @@ body {
 
 .navbar-header .navbar-brand {
   color: white;
+}
+
+/* Páginas de Categorías */
+.category-title {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3em;
+	color: white;
+	border-bottom: solid 1px white;
+	padding-bottom: 0.3em;
+	width: 100%;
+}
+
+/* One page message */
+.message {
+	padding: 2em;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3em;
+	color: light-gray;
+	text-align: center;
+}
+
+/* One page contact form */
+.contact-form {
+	width: 70%;
+	font-size: 1.5em;
+	margin-top: 8%;
+	margin-left: 15%;
+	color: light-gray;
+	padding-bottom: 10%;
+}
+
+#contact-button {
+	width: 20%;
+	margin-left: 40%;
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+}
+
+#contact-button:hover, #contact-button:focus {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
 }
