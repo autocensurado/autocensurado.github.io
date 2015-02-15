@@ -99,3 +99,54 @@ body {
 	border: 1px solid black;
 	color: black;
 }
+
+/* text post list */
+.text-post-list {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	font-size: 2em;
+}
+
+.text-post-list a {
+	color: white;
+}
+
+.text-post-list li {
+	padding: 2%;
+}
+
+/* posts */
+.text-post {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background: white;
+	padding: 2em;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1em;
+	color: black;
+	padding-bottom: 5%;
+}
+
+.text-post h1 {
+	margin: 2%;
+	padding: 1%;
+}
+
+.text-post p {
+	padding: 1%;
+	margin: 2%;
+}
+
+.img-post {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.video-post {
+	width: 80%;
+	margin-left: 10%;
+}
