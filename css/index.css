@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url("../images/index_banner.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
+  font-family: 'Armata';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+.navbar li {
+  color: rgba(0,0,0,0.5);
+}
+
+/* set the background of the menu items to pink and default color to white */
+
+.navbar .nav > li > a {
+  /*background-color: pink;*/
+  color: white;
+}
+
+
+/* set hover and focus to lightblue */
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  /*background-color: lightblue;
+  color: white;*/
+  text-decoration: underline;
+}
+/* set active item to darkgreen */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: gray;
+}
+
+/* set font color and background of the project name (brand) */
+
+.navbar-header .navbar-brand {
+  color: white;
+}
